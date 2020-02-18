@@ -33,3 +33,13 @@ header {
     display: flex;
     list-style: none;
 }
+
+.main-nav  ul a {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    text-decoration: none;
+    color: #555;
+    text-transform: uppercase;
+    font-weight:bold;
+}
