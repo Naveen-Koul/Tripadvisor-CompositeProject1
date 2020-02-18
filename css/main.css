@@ -110,20 +110,34 @@ h1 {
 }
 
 .section-content {
+    display: grid;
+    grid-template-columns: 20em auto 20em;
+    grid-template-rows: auto auto;
+    padding: 50px
+}
 
+.content-mind {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: red;
+}
+
+.content-comm {
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+.content-best {
+    grid-column: 3/4;
+    grid-row: 1/3;
 }
 
 
 
 
 
-
-
-
-
 footer {
-   margin-top: 40px;
-   background-color: #b4b4b4;
+    background-color: #b4b4b4;
     padding: 1%;
 }
 
