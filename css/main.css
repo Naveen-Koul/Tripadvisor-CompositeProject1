@@ -3,8 +3,11 @@
 body{
     font-family:'Open Sans', sans-serif;
     color: #555555;
-    
 }
 
-
-
+header {
+    background-image: url(/img/main-background.jpg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
