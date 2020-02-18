@@ -103,3 +103,21 @@ h1 {
 .search-bttn img{
     height: 1em;
 }
+
+footer {
+   margin-top: 40px;
+   background-color: #b4b4b4;
+    padding: 1%;
+}
+
+footer p {
+    display: flex;
+}
+
+.copyright-msg {
+    margin: 30px auto;
+}
+
+footer img {
+    margin-left: 200px;
+}
