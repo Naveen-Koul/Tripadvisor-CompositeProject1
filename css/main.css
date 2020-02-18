@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600&display=swap');
 
+:root {
+    --wt-col:#fff;
+}
+
 body{
     font-family:'Open Sans', sans-serif;
     color: #555555;
@@ -63,7 +67,7 @@ header {
 .sign-up-bttn {
     background-color: #7452e5;
     border-color: #7452e5; ;
-    color: #fff;
+    color: var(--wt-col);
 }
 
 .sign-up-bttn:hover {
