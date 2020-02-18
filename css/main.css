@@ -200,8 +200,14 @@ h2 {
 
 .sign-bttn {
     display: block;
-    padding: 0 auto;
+    margin: 0 auto 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #7452e5;
+    color: #fff;
+    text-transform: uppercase;
 }
+
 
 
 
