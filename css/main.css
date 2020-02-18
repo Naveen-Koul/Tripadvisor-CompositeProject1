@@ -7,7 +7,7 @@ body{
 }
 
 .main-row {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -33,6 +33,8 @@ header {
     justify-content: space-between;
 }
 
+
+
 .main-nav  ul {
     display: flex;
     list-style: none;
@@ -46,6 +48,41 @@ header {
     color: #555;
     text-transform: uppercase;
     font-weight:bold;
+}
+
+.main-button {
+    margin-top: 30px;
+}
+
+.main-bttn {
+    padding: .6em 1em;
+    border: 2px solid #fff;
+    border-radius: 8px;
+}
+
+.sign-up-bttn {
+    background-color: #7452e5;
+    border-color: #7452e5; ;
+    color: #fff;
+}
+
+.sign-up-bttn:hover {
+    opacity: .7;
+    transition: opacity .2s;
+}
+
+.log-bttn {
+    background-color: transparent;
+    color: #7452e5;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.log-bttn:hover {
+    background-color: #7452e5;
+    color: #fff;
+    border-color: #7452e5;
+    transition: color .2s, background-color .5s;
 }
 
 h1 {
@@ -66,6 +103,7 @@ h1 {
     justify-content: space-around;
     border-bottom: .1em solid rgba(85, 85, 85, 0.15);
     background-color: #fff;
+    box-shadow: 4px 7px 5px rgba(199, 199, 199, 0.67);
 }
 
 .quick-links ul {
@@ -88,6 +126,7 @@ h1 {
     margin: 2em;
 }
 
+
 .search-space {
     border: .1em solid #555;
     border-radius: 7px 0 0 7px;
@@ -105,7 +144,6 @@ h1 {
 .search-bttn img{
     height: 1em;
 }
-
 
 
 article {
@@ -229,22 +267,23 @@ h2 {
 }
 
 
-
-
+.footer-logo {
+    height: 3em;
+}
 
 footer {
     background-color: #b4b4b4;
     padding: 1%;
+    display: flex;
+    justify-content: flex-start
 }
 
-footer p {
-    display: flex;
-}
 
 .copyright-msg {
-    margin: 30px auto;
+    margin-left: 80px;
 }
 
 footer img {
     margin-left: 200px;
+
 }
