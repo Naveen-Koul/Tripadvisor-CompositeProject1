@@ -2,6 +2,8 @@
 
 :root {
     --wt-col:#fff;
+    --gr-col:#555;
+    --bl-col:#7452e5;
 }
 
 body{
@@ -49,7 +51,7 @@ header {
     flex-direction: column;
     margin-left: 20px;
     text-decoration: none;
-    color: #555;
+    color: var(--gr-col);
     text-transform: uppercase;
     font-weight:bold;
 }
@@ -60,13 +62,13 @@ header {
 
 .main-bttn {
     padding: .6em 1em;
-    border: 2px solid #fff;
+    border: 2px solid var(--wt-col);
     border-radius: 8px;
 }
 
 .sign-up-bttn {
-    background-color: #7452e5;
-    border-color: #7452e5; ;
+    background-color: var(--bl-col);
+    border-color: var(--bl-col) ;
     color: var(--wt-col);
 }
 
@@ -77,15 +79,15 @@ header {
 
 .log-bttn {
     background-color: transparent;
-    color: #7452e5;
+    color: var(--bl-col);
     font-weight: bold;
     margin-right: 20px;
 }
 
 .log-bttn:hover {
-    background-color: #7452e5;
-    color: #fff;
-    border-color: #7452e5;
+    background-color: var(--bl-col);
+    color:  var(--wt-col);
+    border-color: var(--bl-col);
     transition: color .2s, background-color .5s;
 }
 
@@ -106,7 +108,7 @@ h1 {
     display: flex;
     justify-content: space-around;
     border-bottom: .1em solid rgba(85, 85, 85, 0.15);
-    background-color: #fff;
+    background-color:var(--wt-col);
     box-shadow: 4px 7px 5px rgba(199, 199, 199, 0.67);
 }
 
@@ -120,7 +122,7 @@ h1 {
     flex-direction: column;
     margin-left: 40px;
     text-decoration: none;
-    color: #555;
+    color: var(--gr-col);
     text-transform: uppercase;
     font-weight:bold;
 }
@@ -138,10 +140,10 @@ h1 {
 }
 
 .search-bttn {
-    border: .1em solid #555;
+    border: .1em solid var(--gr-col);;
     border-left: 0;
     border-radius: 0 7px 7px 0;
-    background-color: #fff;
+    background-color: var(--wt-col);
     cursor: pointer;
 }
 
@@ -151,7 +153,7 @@ h1 {
 
 
 article {
-    background-color: #fff;
+    background-color: var(--wt-col);
     border-radius: 10px;
     box-shadow: 4px 7px 10px #8b8bff;
 }
@@ -241,8 +243,8 @@ h2 {
     margin: 0 auto 10px auto;
     padding: 10px;
     border-radius: 10px;
-    background-color: #7452e5;
-    color: #fff;
+    background-color: var(--bl-col);
+    color: var(--wt-col);
     text-transform: uppercase;
 }
 
