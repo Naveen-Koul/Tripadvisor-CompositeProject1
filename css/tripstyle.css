@@ -34,7 +34,8 @@ header {
 
 .nav-icon {
     height: var(--sz-col);
-    margin-bottom: var(--ln-col);
+   margin-bottom: var(--ln-col);
+  
 }
 
 .main-banner {
@@ -91,7 +92,7 @@ header {
     border-color: var(--bl-col);
     transition: color .2s, background-color .5s;
 }
-
+/*---------Heading------------*/
 h1 {
     position: relative;
     display: flexbox;
@@ -162,12 +163,33 @@ h2 {
     font-weight: bold;
     text-align: center;
 }
+/*------feedback-------*/
+.feedback{
+    width: 50%;
+    background-color: white;
+}
+/*--------Ratings------*/
+.rating{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*------Star symbol-------*/
+.star-sym{
+    display: flex;
+}
+.starimg{
+    margin-top: 0.5em;
+}
 
 .footer-logo {
     height: 3em;
     margin-bottom: 1em;
 }
-
+.para-content{
+    color: rgb(3, 107, 128);
+}
+/*--------Footer-----------*/
 footer {
     background-color: #b4b4b4;
     padding: 1%;
@@ -192,6 +214,3 @@ footer img {
    
 }
 
-.para-content{
-    color: rgb(3, 107, 128);
-}

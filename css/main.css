@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600&display=swap');
-
+    /*------root------*/
 :root {
     --wt-col:#fff;
     --gr-col:#555;
@@ -20,14 +20,14 @@ body{
     max-width: 75em;
     margin: 0 auto;
 }
-
+    /*------header------*/
 header {
     background-image: url(../img/main-background.jpg);
     height: 70vh;
     background-position: center;
     background-size: cover;
 }
-
+    /*------tripadvisor logo-------*/
 .main-logo {
     height: 3.125em;
     margin-top: var(--ln-col);
@@ -43,7 +43,7 @@ header {
     justify-content: space-between;
 }
 
-
+/*------Navigation links------*/
 
 .main-nav  ul {
     display: flex;
@@ -59,7 +59,7 @@ header {
     text-transform: uppercase;
     font-weight:bold;
 }
-
+  /*------Main button------*/
 .main-button {
     margin-top: var(--sz-col);
 }
@@ -69,32 +69,32 @@ header {
     border: 0.125em solid var(--wt-col);
     border-radius: 0.5em;
 }
-
+/*------Sign Up button------*/
 .sign-up-bttn {
     background-color: var(--bl-col);
     border-color: var(--bl-col) ;
     color: var(--wt-col);
 }
-
+ /*------Sign Up button hovering------*/
 .sign-up-bttn:hover {
     opacity: .7;
     transition: opacity .2s;
 }
-
+/*------login button------*/
 .log-bttn {
     background-color: transparent;
     color: var(--bl-col);
     font-weight: bold;
     margin-right: var(--hg-col);
 }
-
+ /*------login button hovering------*/
 .log-bttn:hover {
     background-color: var(--bl-col);
     color:  var(--wt-col);
     border-color: var(--bl-col);
     transition: color .2s, background-color .5s;
 }
-
+   /*------Main Heading------*/
 h1 {
     position: relative;
     display: flexbox;
@@ -130,7 +130,7 @@ h1 {
     text-transform: uppercase;
     font-weight:bold;
 }
-
+    /*----- Search bar and button------*/
 .search-bar {
     display: flex;
     margin: 2em;
@@ -175,7 +175,7 @@ article {
     grid-template-rows: auto auto;
     padding: 3.125em 0.9375em;
 }
-
+    /*------Feedback and upload photos------*/
 .content-mind {
     grid-column: 1/2;
     grid-row: 1/2;
@@ -251,7 +251,7 @@ h2 {
     color: var(--wt-col);
     text-transform: uppercase;
 }
-
+    /*-------Social media links--------*/
 .content-social ul a {
     display: flex;
     text-decoration: none;
@@ -276,7 +276,7 @@ h2 {
     padding-top: var(--hg-col);
 }
 
-
+ /*------Footer------*/
 .footer-logo {
     height: 3em;
     margin-bottom: 1em;
