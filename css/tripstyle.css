@@ -134,7 +134,7 @@ h1 {
     grid-column: 2/3;
     grid-row: 1/3;
     margin: 0 2.5em;
-    padding: 0 var(--ln-col);
+    padding: 2 var(--ln-col);
     width: 50%;
     margin: 0 auto;
     background-color: white;
@@ -152,8 +152,11 @@ h1 {
 
 .content-reccom ul {
     margin: 1em;
+    text-align: center;
 }
-
+.content-reccom ul button {
+    margin-top: 1em;
+}
 h2 {
     text-align: center;
 }
@@ -162,12 +165,21 @@ h2 {
     text-decoration: none;
     font-weight: bold;
     text-align: center;
+    color: black;
 }
 /*------feedback-------*/
 .feedback{
     width: 50%;
     background-color: white;
+    padding: 2%;
+    margin: 2em auto;
+    color: black;
 }
+
+h4 
+{ font-size: 1.5em;
+}
+
 /*--------Ratings------*/
 .rating{
     display: flex;
@@ -178,8 +190,12 @@ h2 {
 .star-sym{
     display: flex;
 }
+
+
+
 .starimg{
-    margin-top: 0.5em;
+    margin-top: .7em;
+    margin-left: 1em;
 }
 
 .footer-logo {
@@ -188,6 +204,10 @@ h2 {
 }
 .para-content{
     color: rgb(3, 107, 128);
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 2em;
 }
 /*--------Footer-----------*/
 footer {
