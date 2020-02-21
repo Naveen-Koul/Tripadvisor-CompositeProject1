@@ -1,0 +1,59 @@
+/* ******************* Media Query For Mobile ********************/
+
+@media only screen and (max-width: 640px) {
+    header { 
+      width: 933px;
+    }
+  
+    .main-button{
+      display: flex;
+      margin: 12px;
+    }
+  
+    .quick-links.main-row{
+      width: 895px;
+      margin: 0 20px;
+    }
+  
+    .section-content.main-row.grid, .section-classic.main-row.grid, 
+    .section-photo.main-row{
+      display: block;
+      width: 933px;
+      margin: 0 auto;
+      padding: 3.125em 2.9375em;
+    }
+  
+    footer, .main-row.footer-content{
+      display: block;
+      width: 935px;
+      padding: 10px 5px;
+    }
+  
+    .content-comm{
+      margin:0;
+      padding: 20px;
+    }
+  
+    .content-mind, .content-best, .content-comm,.content-social{
+      padding: 20px;
+      margin-bottom: 35px;
+  }
+  
+  .content-mind ul li, .content-social ul li{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  .comm-box{
+      display: flex;
+      justify-content: space-evenly;
+  }
+  
+  }
+  
+  @media only screen and (max-width: 731px) {
+       header { 
+      width: 940px;
+    }
+  
