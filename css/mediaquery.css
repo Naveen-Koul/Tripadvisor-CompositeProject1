@@ -1,149 +1,150 @@
-/* ******************* Media Query For Mobile ********************/
-@media only screen and (max-width: 1200px) {
-.main-row{
-    padding: 0 2%;
-    max-width: 100%;
-}
-@media only screen and (max-width: 1024px) {
-    .main-logo {
-        height: 2em;
-        margin-top: 1em;
+/* ******************* Media Query For 75em ********************/
+@media only screen and (max-width: 75em) {
+    .main-row{
+        padding: 0 2%;
+        max-width: 100%;
+    }
+    /* ******************* Media Query For 64em ********************/
+    @media only screen and (max-width: 64em) {
+        .main-logo {
+            height: 2em;
+            margin-top: 1em;
+        }
+        
+        .nav-icon {
+            height: 1em;
+            margin-bottom: 0.5em;
+        }
+        .main-banner {
+            display: flex;
+            justify-content: space-between;
+        }
+        /*------Navigation links------*/
+    
+        
+        .main-nav  ul a {
+            display: flex;
+            flex-direction: column;
+            margin-left: 1em;
+            text-decoration: none;
+            color: var(--gr-col);
+            text-transform: uppercase;
+            font-weight:bold;
+            font-size: 0.80em;
+        }
+        /*------Main button------*/
+        .main-button {
+            margin-top: 1em;
+        }
+        
+        .main-bttn {
+            padding: .5em 0.5em;
+            border: 0.125em solid var(--wt-col);
+            border-radius: 0.5em;
+        }
+         
+        /*------login button------*/
+        .log-bttn {
+            background-color: transparent;
+            color: var(--bl-col);
+            font-weight: bold;
+            margin-right: 0.5em;
+        }
+    
+        .grid {
+            grid-template-columns: auto;
+            grid-template-rows: auto auto auto auto;
+            padding: 3.125em 0.9375em;
     }
     
-    .nav-icon {
-        height: 1em;
-        margin-bottom: 0.5em;
+    .content-mind {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        }
+    
+    .content-comm {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        margin-top: 3.125em;
     }
-    .main-banner {
+    
+    .content-best {
+        grid-column: 1/2;
+        grid-row: 3/4;
+        margin-top: 3.125em;
+    }
+    .content-mind ul li {
         display: flex;
-        justify-content: space-between;
+        margin: var(--hg-size) 0 0 3.4375em;
+        margin-left: 15em;
     }
-    /*------Navigation links------*/
-
-    
-    .main-nav  ul a {
-        display: flex;
-        flex-direction: column;
-        margin-left: 1em;
-        text-decoration: none;
-        color: var(--gr-col);
-        text-transform: uppercase;
-        font-weight:bold;
-        font-size: 0.80em;
+    .comm-box {
+        padding: 0 13%;
     }
-    /*------Main button------*/
-    .main-button {
-        margin-top: 1em;
+    .content-best p {
+        text-align: center;
+    }
+    .content-social{
+        margin-top: 3em;
     }
     
-    .main-bttn {
-        padding: .5em 0.5em;
-        border: 0.125em solid var(--wt-col);
-        border-radius: 0.5em;
     }
-     
-    /*------login button------*/
-    .log-bttn {
-        background-color: transparent;
-        color: var(--bl-col);
-        font-weight: bold;
-        margin-right: 0.5em;
-    }
-
-    .grid {
-        grid-template-columns: auto;
-        grid-template-rows: auto auto auto auto;
-        padding: 3.125em 0.9375em;
-}
-
-.content-mind {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    }
-
-.content-comm {
-    grid-column: 1/2;
-    grid-row: 2/3;
-    margin-top: 3.125em;
-}
-
-.content-best {
-    grid-column: 1/2;
-    grid-row: 3/4;
-    margin-top: 3.125em;
-}
-.content-mind ul li {
-    display: flex;
-    margin: var(--hg-size) 0 0 3.4375em;
-    margin-left: 15em;
-}
-.comm-box {
-    padding: 0 13%;
-}
-.content-best p {
-    text-align: center;
-}
-.content-social{
-    margin-top: 3em;
-}
-
-}
-
-@media only screen and (max-width: 640px) {
-    header { 
-      max-width: 100%;
-    }
-  
-    .main-button{
-      display: flex;
-      margin: 12px;
-    }
-  
-    .quick-links.main-row{
-      width: 895px;
-      margin: 0 20px;
-    }
-  
-    .section-content.main-row.grid, .section-classic.main-row.grid, 
-    .section-photo.main-row{
-      display: block;
-      width: 933px;
-      margin: 0 auto;
-      padding: 3.125em 2.9375em;
-    }
-  
-    footer, .main-row.footer-content{
-      display: block;
-      width: 935px;
-      padding: 10px 5px;
-    }
-  
-    .content-comm{
-      margin:0;
-      padding: 20px;
-    }
-  
-    .content-mind, .content-best, .content-comm,.content-social{
-      padding: 20px;
-      margin-bottom: 35px;
-  }
-  
-  .content-mind ul li, .content-social ul li{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  }
-  
-  .comm-box{
-      display: flex;
-      justify-content: space-evenly;
-  }
-  
-  }
-  
-  @media only screen and (max-width: 731px) {
-       header { 
-      width: 940px;
-    }
-  }
-} 
+    /* ******************* Media Query For 40em ********************/
+    @media only screen and (max-width: 40em) {
+        header { 
+          max-width: 100%;
+        }
+      
+        .main-button{
+          display: flex;
+          margin: 12px;
+        }
+      
+        .quick-links.main-row{
+          width: 895px;
+          margin: 0 20px;
+        }
+      
+        .section-content.main-row.grid, .section-classic.main-row.grid, 
+        .section-photo.main-row{
+          display: block;
+          width: 933px;
+          margin: 0 auto;
+          padding: 3.125em 2.9375em;
+        }
+      
+        footer, .main-row.footer-content{
+          display: block;
+          width: 935px;
+          padding: 10px 5px;
+        }
+      
+        .content-comm{
+          margin:0;
+          padding: 20px;
+        }
+      
+        .content-mind, .content-best, .content-comm,.content-social{
+          padding: 1.25em;
+          margin-bottom: 2.1875em;
+      }
+      
+      .content-mind ul li, .content-social ul li{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+      
+      .comm-box{
+          display: flex;
+          justify-content: space-evenly;
+      }
+       
+      }
+      
+      @media only screen and (max-width: 45.6875em) {
+           header { 
+          width: 100%;
+        }
+      }
+    } 
